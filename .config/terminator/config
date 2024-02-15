@@ -1,0 +1,34 @@
+[global_config]
+[keybindings]
+  split_horiz = <Primary><Alt>h
+  split_vert = <Primary><Alt>v
+  close_term = <Primary><Alt>q
+[profiles]
+  [[default]]
+    icon_bell = False
+    font = JetBrains Mono Semi-Bold 14
+    foreground_color = "#8ae234"
+    show_titlebar = False
+    use_system_font = False
+    title_hide_sizetext = True
+    title_use_system_font = False
+    title_font = JetBrains Mono Bold 12
+  [[dev]]
+    allow_bold = False
+    icon_bell = False
+    background_darkness = 0.05
+    font = JetBrains Mono Semi-Bold 14
+    foreground_color = "#8ae234"
+    show_titlebar = False
+    use_system_font = False
+    title_use_system_font = False
+    title_font = JetBrains Mono Bold 9
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
